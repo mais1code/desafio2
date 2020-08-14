@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>desafio2</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <style>
+    .header { grid-area: header; }
+    .left-box { grid-area: left-box; }
+    .right-box { grid-area: right-box; }
+
+
+    .grid-container {
+      display: grid;
+      grid-template-areas:
+        'header header header header header header'
+        'left-box right-box right-box right-box right-box right-box'
+        'left-box right-box right-box right-box right-box right-box';
+      grid-gap: 10px;
+      background-color: #2196F3;
+      padding: 10px;
+    }
+
+    .grid-container > div {
+      background-color: rgba(255, 255, 255, 0.8);
+      text-align: center;
+      padding: 20px 0;
+      font-size: 30px;
+    }
+
+    .grid-container > div {
+      background-color: rgba(255, 255, 255, 0.8);
+      text-align: center;
+      padding: 20px 0;
+    }
+    </style>
+</header>
+  <body>
+
+
+
+<div class="grid-container">
+  <div class="header"> 
+    <h1 class="text-center">Loja de cartões da +1CODE</h1>
+    <hr /> 
+  </div>
+  <div class="left-box">
+    <div class="img-container">
+      <img class="thumbnail" src= "https://media.istockphoto.com/vectors/lightning-icon-illustration-vector-id1056392776?k=6&m=1056392776&s=170667a&w=0&h=h23cE0FQQSUBeyarPLvl_U2ZzuAIbIff4iiGGrrUgDQ="
+      width="120" height="122"/>
+    </div>
+
+    <div class="img-container">
+      <img class="thumbnail" src= "https://media.istockphoto.com/vectors/lightning-icon-illustration-vector-id1056392776?k=6&m=1056392776&s=170667a&w=0&h=h23cE0FQQSUBeyarPLvl_U2ZzuAIbIff4iiGGrrUgDQ="
+      width="120" height="122"/>
+    </div>
+
+    <div class="img-container">
+      <img class="thumbnail" src= "https://media.istockphoto.com/vectors/lightning-icon-illustration-vector-id1056392776?k=6&m=1056392776&s=170667a&w=0&h=h23cE0FQQSUBeyarPLvl_U2ZzuAIbIff4iiGGrrUgDQ="
+      width="120" height="122"/>
+    </div>
+  </div>
+  <div class="right-box">Right Box
+    
+  </div>  
+
+</div>
+
+
+
+  
+
+</body>
+    
+
+
+
+
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
